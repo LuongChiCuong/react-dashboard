@@ -1,0 +1,40 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.App-navigation {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #212121;
+  color: white;
+  text-align: center;
+}
+
+.App-logo {
+  font-size: 20px;
+  line-height: 22px;
+  padding: 20px 0;
+  margin: 0;
+  /*border-bottom: 1px solid #ECEFF1;*/
+  background-color: #000000;
+}
+
+.App-menu > ul {
+  padding: 0;
+}
+.App-menu > ul > li {
+  list-style: none;
+  width: 100%;
+  display: block;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.App-menu > ul > li:hover {
+  cursor: pointer;
+}
