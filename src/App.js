@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation'
+import Navigation from './Navigation';
+import MainContent from './Main';
 // import logo from './logo.svg';
 import './App.css';
 
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation></Navigation>
+        <MainContent></MainContent>
       </div>
     );
   }

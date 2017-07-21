@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Icon} from 'react-materialize';
 // import logo from './logo.svg';
 import './Navigation.css';
+// <Icon tiny>bookmark</Icon>{item}
 
 class Navigation extends Component {
   // constructor(props) {
@@ -11,7 +12,7 @@ class Navigation extends Component {
     const items = ["Overal", "Bookmarks", "Category", "E-books", "Accounts"];
     const listMenu = items.map((item, index) =>
       <li key={index}>
-        <Icon tiny>bookmark</Icon>{item}
+        {item}
       </li>
     );
     return (

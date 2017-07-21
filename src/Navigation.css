@@ -18,6 +18,9 @@
   background-color: #000000;
 }
 
+.App-menu {
+  text-align: left;
+}
 .App-menu > ul {
   padding: 0;
 }
@@ -28,8 +31,10 @@
   vertical-align: middle;
   font-size: 16px;
   line-height: 40px;
+  padding-left: 25px;
 }
 
 .App-menu > ul > li:hover {
   cursor: pointer;
+  border-left: 3px solid #32cb00;
 }

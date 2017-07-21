@@ -1,0 +1,40 @@
+
+
+.App-main {
+  min-height: 100vh;
+  height: 100vh;
+  max-width: 100%;
+  margin-left: 200px;
+}
+
+.main-header {
+  background-color: white;
+  height: 62px;
+  color: #333;
+  font-size: 20px;
+}
+
+.main-title {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.main-content {
+  background: white;
+  margin: 20px;
+  color: #333;
+}
+
+/*Style Table*/
+thead {
+  border-bottom: 5px solid #f4f2f1;
+}
+
+table>tbody>tr:hover {
+  background-color: initial !important;
+  border-left: 2px solid #32cb00;
+}
